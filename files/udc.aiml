@@ -16,6 +16,7 @@
 
 <category><pattern>Hi can I help you</pattern><template><srai>Help</srai></template></category>
 
+
 <category>
     <pattern>Yes</pattern>
     <that>Can I help you with choosing a gift for some body</that>
@@ -33,26 +34,26 @@
 </ol></template>
 </category>
 
-<category><pattern>Whatever</pattern><template><srai>UNKNOWN</srai></template></category>
+<category><pattern>Whatever</pattern><template><srai>unknown</srai></template></category>
 
 
-<category><pattern>Any</pattern><template><srai>UNKNOWN</srai></template></category>
+<category><pattern>Any</pattern><template><srai>unknown</srai></template></category>
 
 
-<category><pattern>Anything</pattern><template><srai>UNKNOWN</srai></template></category>
+<category><pattern>Anything</pattern><template><srai>unknown</srai></template></category>
 
 
-<category><pattern>I do not know</pattern><template><srai>UNKNOWN</srai></template></category>
+<category><pattern>I do not know</pattern><template><srai>unknown</srai></template></category>
 
 
-<category><pattern>I don't know</pattern><template><srai>UNKNOWN</srai></template></category>
+<category><pattern>I don't know</pattern><template><srai>unknown</srai></template></category>
 
 
-<category><pattern>I do not know</pattern><template><srai>I DO NOT KNOW</srai></template></category>
+<category><pattern>I do not know</pattern><template><srai>unknown</srai></template></category>
 
 <category>
     <pattern>clothescategory</pattern>
-    <template>Is it for man, woman or kid? </template>
+    <template> <think><set name="topic">clothes</set></think>Is it for man, woman or kid? </template>
 </category>
 
 <category><pattern>1*</pattern><template><srai>clothescategory</srai></template></category>
