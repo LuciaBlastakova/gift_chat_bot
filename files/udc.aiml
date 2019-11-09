@@ -18,10 +18,19 @@
 
 
 <category>
-    <pattern>Yes</pattern>
+    <pattern>agreement</pattern>
     <that>Can I help you with choosing a gift for some body</that>
     <template>Which category would you like to explore?</template>
 </category>
+<category><pattern>ok</pattern><template><srai>agreement</srai></template></category>
+<category><pattern>fine</pattern><template><srai>agreement</srai></template></category>
+<category><pattern>great</pattern><template><srai>agreement</srai></template></category>
+<category><pattern>super</pattern><template><srai>agreement</srai></template></category>
+<category><pattern>excelent</pattern><template><srai>agreement</srai></template></category>
+<category><pattern>brilliant</pattern><template><srai>agreement</srai></template></category>
+<category><pattern>I will happy</pattern><template><srai>agreement</srai></template></category>
+<category><pattern>yop</pattern><template><srai>agreement</srai></template></category>
+<category><pattern>yea</pattern><template><srai>agreement</srai></template></category>
 
 <category>
     <pattern>unknown</pattern>
@@ -63,5 +72,22 @@
 
 
 <category><pattern>1</pattern><template><srai>clothescategory</srai></template></category>
+
+
+<category>
+    <pattern>shoescategory</pattern>
+    <template> <think><set name="topic">shoes</set></think>Is it for man, woman or kid? </template>
+</category>
+
+<category><pattern>3*</pattern><template><srai>shoescategory</srai></template></category>
+
+
+<category><pattern>shoes</pattern><template><srai>shoescategory</srai></template></category>
+
+<category><pattern>boots</pattern><template><srai>shoescategory</srai></template></category>
+
+
+<category><pattern>3</pattern><template><srai>shoescategory</srai></template></category>
+
 
 </aiml>
