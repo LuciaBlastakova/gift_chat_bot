@@ -34,21 +34,11 @@
 </category>
 
 <category><pattern>Whatever</pattern><template><srai>UNKNOWN</srai></template></category>
-
-
 <category><pattern>Any</pattern><template><srai>UNKNOWN</srai></template></category>
-
-
 <category><pattern>Anything</pattern><template><srai>UNKNOWN</srai></template></category>
-
-
 <category><pattern>I do not know</pattern><template><srai>UNKNOWN</srai></template></category>
-
-
 <category><pattern>I don't know</pattern><template><srai>UNKNOWN</srai></template></category>
-
-
-<category><pattern>I do not know</pattern><template><srai>I DO NOT KNOW</srai></template></category>
+<category><pattern>I do not know</pattern><template><srai>UNKNOWN</srai></template></category>
 
 <category>
     <pattern>clothescategory</pattern>
