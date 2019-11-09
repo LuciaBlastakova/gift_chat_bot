@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+  <category>
+    <pattern>Help</pattern>
+    <template>Can I help you with choosing a gift for some body?</template>
+  </category>
+
+<category><pattern>Good Evening</pattern><template><srai>Help</srai></template></category>
+
+
+<category><pattern>Good morning</pattern><template><srai>Help</srai></template></category>
+
+
+<category><pattern>Hallo</pattern><template><srai>Help</srai></template></category>
+
+
+<category><pattern>Hi can I help you</pattern><template><srai>Help</srai></template></category>
+
+<category>
+    <pattern>Yes</pattern>
+    <that>Can I help you with choosing a gift for some body</that>
+    <template>Which category would you like to explore?</template>
+</category>
+
+<category>
+    <pattern>unknown</pattern>
+    <that>Which category would you like to explore</that>
+    <template>I can offer you someone of these categories :
+<ol>
+    <li>clothes</li>
+    <li>games</li>
+    <li>shoes</li>
+</ol></template>
+</category>
+
+<category><pattern>Whatever</pattern><template><srai>UNKNOWN</srai></template></category>
+
+
+<category><pattern>Any</pattern><template><srai>UNKNOWN</srai></template></category>
+
+
+<category><pattern>Anything</pattern><template><srai>UNKNOWN</srai></template></category>
+
+
+<category><pattern>I do not know</pattern><template><srai>UNKNOWN</srai></template></category>
+
+
+<category><pattern>I don't know</pattern><template><srai>UNKNOWN</srai></template></category>
+
+
+<category><pattern>I do not know</pattern><template><srai>I DO NOT KNOW</srai></template></category>
+
+<category>
+    <pattern>clothescategory</pattern>
+    <template>Is it for man, woman or kid? </template>
+</category>
+
+<category><pattern>1*</pattern><template><srai>clothescategory</srai></template></category>
+
+
+<category><pattern>clothes</pattern><template><srai>clothescategory</srai></template></category>
+
+
+<category><pattern>1</pattern><template><srai>clothescategory</srai></template></category>
+
+</aiml>
